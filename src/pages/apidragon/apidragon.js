@@ -95,7 +95,7 @@ handleModalOpen()
             <Modal.Footer>
                 <Button variant="secondary" OncClick={() => this.handleModalClose}></Button>
             </Modal.Footer>
-        </>;
+        </>
     }
 }
 
