@@ -1,0 +1,23 @@
+.home{
+    background-color: slategray;
+    height: 2500px;
+}
+.TituloDaHome{
+    color: rgb(14, 24, 53);
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 2rem;
+    
+}
+.borda{
+    border: 6px solid snow;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+.Descricao{
+    color: black;
+    font-weight: bold;
+    font-style: oblique;
+}
