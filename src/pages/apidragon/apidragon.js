@@ -50,7 +50,7 @@ class Apidragon extends Component {
         const {listDragons, showModal} = this.state;
         return <>
             <div className="container">
-                <button OncClick={() => this.handleModalOpen()}className="btn btn-sucess float-right">Criar</button>
+                <button onClick={() => this.handleModalOpen()}className="btn btn-sucess float-right">Criar</button>
                 <div className="row">
                     <div className="col">
                         <table className="table">
@@ -72,8 +72,8 @@ class Apidragon extends Component {
                                     <td>{dragon.type}</td>
                                     <td>{dragon.createdAt}</td>
                                     <td>
-                                        <button OncClick={() => this.OnEdit(dragon.id)} className="btn btn-primary">Editar</button>
-                                        <button OncClick={() => this.OnDelete(dragon.id)} className="btn btn-danger">Deletar</button>
+                                        <button onClick={() => this.OnEdit(dragon.id)} className="btn btn-primary">Editar</button>
+                                        <button onClick={() => this.OnDelete(dragon.id)} className="btn btn-danger">Deletar</button>
                                     </td>
                                 </tr>
                             )}
@@ -98,7 +98,7 @@ class Apidragon extends Component {
                 </Form>
             </Modal.Body>
             <Modal.Footer>
-                <Button variant="secondary" OncClick={() => this.handleModalClose}></Button>
+                <Button variant="secondary" onClick={() => this.handleModalClose}></Button>
             </Modal.Footer>
         </>;
     }

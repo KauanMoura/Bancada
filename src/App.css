@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(42, 0, 196);
 }
 
 .App-link {
@@ -34,4 +34,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Download{
+  border: 10px solid rgb(68, 149, 202);
+  border-radius: 2.5px;
+  background-color: rgb(47, 46, 63);
+  font-size: 55px;
+  color: slategrey;
+  font-size: 2500px;
 }

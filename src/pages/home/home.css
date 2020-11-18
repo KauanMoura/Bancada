@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1200px){
 .home{
     background-color: slategray;
     height: 2500px;
@@ -9,15 +10,76 @@
     font-style: italic;
     font-weight: bolder;
     padding-top: 2rem;
+    background-color: slategray;
     
 }
 .borda{
-    border: 6px solid snow;
-    border-radius: 50px;
-    background-color: cornflowerblue;
+    border: 60px solid rgb(18, 38, 95);
+    border-radius: 500px;
+    background-color: rgb(7, 181, 204);
 }
 .Descricao{
     color: black;
     font-weight: bold;
     font-style: oblique;
+
+ }
+ .img{
+    image-resolution: 10%;
+    width: 10%;
+    height: 10%;
+    max-width: 10%;
+    max-height: 10%;
+    min-height: 10%;
+    max-height: 10%;
+    
+ }
 }
+@media only screen and (max-width: 1200px){
+        
+    .home{
+        background-color: rgb(29, 35, 110);
+        height: 250px;
+        border: 50px solid rgb(0, 105, 79);
+        border-radius: 250px;
+        outline-color: steelblue;
+        font-size: larger;
+    }
+        .TituloDaHome{
+            color: rgb(10, 10, 10);
+            text-align: left;
+            font-size: 7.5px;
+            font-style: italic;
+            font-weight: bolder;
+            padding-top: 2rem;
+            font-size: 250px;
+            
+        }
+        .borda{
+            border: 10px solid rgb(68, 149, 202);
+            border-radius: 2.5px;
+            background-color: rgb(47, 46, 63);
+            font-size: 55px;
+            color: slategrey;
+            font-size: 2500px;
+        }
+        .Descricao{
+            color: black;
+            font-weight: bold;
+            font-style: oblique;
+            
+        
+        }
+    }
+.div{
+    width: 200%;
+    height: 200%;
+    max-width: 200%;
+    max-height: 200%;
+    min-height: 200%;
+    max-height: 200%;
+    font-size: 2500px;
+
+}
+
+  
