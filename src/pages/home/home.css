@@ -34,6 +34,14 @@
     max-height: 10%;
     
  }
+ .Footer{
+    border: 10px solid rgb(16, 143, 33);
+    border-radius: 2.5px;
+    background-color: rgb(47, 46, 63);
+    font-size: 55px;
+    color: rgb(24, 88, 5);
+    font-size: 2500px;
+}
 }
 @media only screen and (max-width: 1200px){
         
@@ -80,6 +88,14 @@
     max-height: 200%;
     font-size: 2500px;
 
+    
 }
-
+.Footer{
+    border: 10px solid rgb(16, 143, 33);
+    border-radius: 2.5px;
+    background-color: rgb(47, 46, 63);
+    font-size: 55px;
+    color: rgb(24, 88, 5);
+    font-size: 2500px;
+}
   

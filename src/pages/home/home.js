@@ -108,8 +108,10 @@ class Home extends Component{
                     
                     <div className="">
                       
-                       
-                           
+                       <footer className="text-right">
+                           <br></br>
+                    Pagina Gamejolt: <a href={"https://gamejolt.com/games/TKH/554019"}>Clique Aqui</a>
+                    </footer>
                     </div>
              </div>);
     }
